@@ -1,0 +1,9 @@
+[2019-03-14T16:14:48,230][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"C:/ELK/bin/logstash-6.6.2/data/queue"}
+[2019-03-14T16:14:48,280][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"C:/ELK/bin/logstash-6.6.2/data/dead_letter_queue"}
+[2019-03-14T16:14:49,078][ERROR][org.logstash.Logstash    ] java.lang.IllegalStateException: Logstash stopped processing because of an error: (SystemExit) exit
+[2019-03-14T16:17:26,179][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2019-03-14T16:17:26,429][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.6.2"}
+[2019-03-14T16:17:26,492][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"5ccd8b55-5c8d-472c-a7c5-0a43b4b424ee", :path=>"C:/ELK/bin/logstash-6.6.2/data/uuid"}
+[2019-03-14T16:17:28,164][INFO ][logstash.config.source.local.configpathloader] No config files found in path {:path=>"C:/ELK/bin/logstash-6.6.2/blogs_csv.conf"}
+[2019-03-14T16:17:28,195][ERROR][logstash.config.sourceloader] No configuration found in the configured sources.
+[2019-03-14T16:17:29,398][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}

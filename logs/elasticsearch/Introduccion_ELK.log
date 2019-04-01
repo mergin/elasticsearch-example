@@ -1,0 +1,7 @@
+[2019-04-01T07:35:36,127][INFO ][o.e.x.m.e.l.LocalExporter] [node-1] cleaning up [3] old indices
+[2019-04-01T07:35:37,476][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node-1] [.monitoring-logstash-6-2019.03.21/M26E6qqUTr24wBuRlfQZqw] deleting index
+[2019-04-01T07:35:37,714][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node-1] [.monitoring-es-6-2019.03.21/YJLsVFiOQcKGhWv4zejxkw] deleting index
+[2019-04-01T07:35:37,923][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node-1] [.monitoring-kibana-6-2019.03.21/dTYbCxr3Tt6UF7Xu-WeBIw] deleting index
+[2019-04-01T07:35:45,545][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [.monitoring-kibana-6-2019.04.01] creating index, cause [auto(bulk api)], templates [.monitoring-kibana], shards [1]/[0], mappings [doc]
+[2019-04-01T07:35:45,836][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [.monitoring-logstash-6-2019.04.01] creating index, cause [auto(bulk api)], templates [.monitoring-logstash], shards [1]/[0], mappings [doc]
+[2019-04-01T07:35:46,596][INFO ][o.e.c.m.MetaDataCreateIndexService] [node-1] [.monitoring-es-6-2019.04.01] creating index, cause [auto(bulk api)], templates [.monitoring-es], shards [1]/[0], mappings [doc]
